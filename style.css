@@ -24,9 +24,12 @@ body {
     margin-left: 352px;
 }
 
-
-.login-container {
-    
+.login-page-headings {
+    display: block;
+    width: 208px;
+    height: 48px;
+    margin-top: 176px;
+    margin-left: 398px;
 }
 
 .login-form {
@@ -34,8 +37,6 @@ body {
     height: 397px;
     margin-top: 276px;
     margin-left: 266px;
-    margin-bottom: 277px;
-    margin-right: 1202px;
     border-radius: 16px;
     align-items: center;
     justify-content: center;
@@ -43,11 +44,10 @@ body {
     display: flex;
 }
 
-.ugt-logo {
+.ugt-logo-1 {
     width: 287px;
     height: 130px;
     margin-left: 349px;
-    margin-right: 1280px;
     margin-top: 733px;
     margin-bottom: 87px;
 }
