@@ -1,0 +1,53 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f6f7fb;
+    display: flex;
+    max-height: 100vh;
+    height: 950px;
+    width: 1920px;
+}
+
+.login-page-pattern {
+    width: 280px;
+    height: 140px;
+    margin-left: 352px;
+}
+
+
+.login-container {
+    
+}
+
+.login-form {
+    width: 452px;
+    height: 397px;
+    margin-top: 276px;
+    margin-left: 266px;
+    margin-bottom: 277px;
+    margin-right: 1202px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+}
+
+.ugt-logo {
+    width: 287px;
+    height: 130px;
+    margin-left: 349px;
+    margin-right: 1280px;
+    margin-top: 733px;
+    margin-bottom: 87px;
+}
