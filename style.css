@@ -3,7 +3,7 @@ html, body {
     height: 100%;
 }
   
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -24,12 +24,27 @@ body {
     margin-left: 352px;
 }
 
-.login-page-headings {
-    display: block;
+.login-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
     width: 208px;
-    height: 48px;
-    margin-top: 176px;
-    margin-left: 398px;
+    top: 176px;
+    left: 398px;
+    text-align: center;
+}
+
+.login-page-h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.login-page-h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .login-form {
