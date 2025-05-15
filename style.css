@@ -25,33 +25,33 @@ body {
 }
 
 .login-header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     position: absolute;
-    width: 208px;
     top: 176px;
     left: 398px;
-    text-align: center;
 }
 
 .login-page-h1 {
     font-size: 32px;
     font-weight: 600;
+    text-align: center;
     margin: 0;
+    color: #19191B;
 }
 
 .login-page-h2 {
     font-size: 16px;
     font-weight: 400;
     margin: 0;
+    text-align: center;
+    color: #757D8E;
 }
 
 .login-form {
+    position: absolute;
     width: 452px;
     height: 397px;
-    margin-top: 276px;
-    margin-left: 266px;
+    top: 276px;
+    left: 266px;
     border-radius: 16px;
     align-items: center;
     justify-content: center;
