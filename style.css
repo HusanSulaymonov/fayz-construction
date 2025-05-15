@@ -46,17 +46,60 @@ body {
     color: #757D8E;
 }
 
-.login-form {
+.login-container {
     position: absolute;
-    width: 452px;
-    height: 397px;
     top: 276px;
     left: 266px;
-    border-radius: 16px;
-    align-items: center;
-    justify-content: center;
     background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 452px;
+    height: 397px;
+    text-align: center;
+}
+
+/* Matn maydonchalari stilini o‘rnatamiz */
+.login-container input,
+.login-container input  {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DEE1EB;
+    border-radius: 5px;
+    align-items: center;
+}
+
+/* Tugma stilini o‘rnatamiz */
+.login-container button {
+    position: absolute;
+    top: 329px;
+    left: 16px;
+    width: 420px;
+    height: 52px;
+    padding: 10px;
+    background-color: #031F36;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Kirish usullari tugmalari */
+.tab-container {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+/* Tugmalar stilini o‘rnatamiz */
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+/* Faol tugmaning uslubi */
+.tab.active {
+    
 }
 
 .ugt-logo-1 {
