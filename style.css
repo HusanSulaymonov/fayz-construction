@@ -61,11 +61,14 @@ body {
 /* Matn maydonchalari stilini o‘rnatamiz */
 .login-container input,
 .login-container input  {
+    position: relative;
+    top: 117px;
+    left: 16px;
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #DEE1EB;
-    border-radius: 5px;
+    border-radius: 10px;
     align-items: center;
 }
 
@@ -85,16 +88,31 @@ body {
 
 /* Kirish usullari tugmalari */
 .tab-container {
+    position: absolute;
+    top: 16px;
+    left: 16px;
     display: flex;
-    justify-content: space-around;
+    width: 420px;
+    height: 48px;
+    background-color: #eef0f4;
     margin-bottom: 16px;
+    border-radius: 10px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
 }
 
 /* Tugmalar stilini o‘rnatamiz */
 .tab {
     cursor: pointer;
     padding: 10px;
-    border-bottom: 2px solid transparent;
+    width: 56px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #737E8E;
 }
 
 /* Faol tugmaning uslubi */
