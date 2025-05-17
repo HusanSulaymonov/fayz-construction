@@ -108,6 +108,12 @@ p.subtitle {
     font-size: 14px;
 }
 
+.label-login {
+    color: #19191B;
+    font-weight: 500;
+    font-size: 18px;
+}
+
 input::placeholder {
   font-weight: 400;
   font-size: 18px;
