@@ -9,33 +9,43 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class="container">
-            <div class="login-page">
-                <img src="./images/login-page-pattern.png" class="login-page-pattern" alt="Pattern image">
-                    <div class="login-header">
-                        <h1 class="login-page-h1">Tizimga kirish</h1>
-                        <h2 class="login-page-h2">Kirish usullaridan birini tanlang</h2>
-                    </div>
+        <div class="header-img">
+            <img src="./images/login-page-pattern.png" alt="Pattern image">
+        </div>
+        <div class="header-text">
+            <h1 class="header-title">Tizimga kirish</h1>
+            <p class="header-subtitle">Kirish usullaridan birini tanlang</p>
+        </div>
 
-                    <div class="login-container">
-                        <div class="tab-container">
-                            <div class="tab active">Login</div>
-                            <div class="tab">One ID</div>
-                            <div class="tab">ERI</div>
-                            <div class="tab">QR-kod</div>
-                        </div>
-                            <div class="tab-content">
-                                <h2 class="login-username">Login</h2>
-                                <input class="login-input" type="text" placeholder="Kiriting">
-                                <h2 class="login-password"></h2>
-                                <input class="login-password" type="password" placeholder="Kiriting">
-                                <button class="sign-in-btn">Kirish</button>
-                            </div>
-                    </div>
-                <div class="ugt-logo">
-                    <img src="./images/ugt-logo2.png" class="ugt-logo-1" alt="Uzgastrade Logo">
-                </div>
+        <div class="login-container">
+            <div class="tabs">
+                <div class="tab active">Login</div>
+                <div class="tab">One ID</div>
+                <div class="tab">ERI</div>
+                <div class="tab">QR-kod</div>
+            </div>
+        
+            <div class="input-group">
+                <label for="login">Login</label>
+                <input type="text" id="login" placeholder="Kiriting">
+            </div>
+        
+            <div class="input-group">
+                <label for="parol">Parol</label>
+                <input type="password" id="parol" placeholder="Kiriting">
+            </div>
+            <div>
+               <button class="btn">Kirish</button>
             </div>
         </div>
+
+        <div class="footer-img">
+            <img src="./images/ugt-logo2.png" alt="UGT logo">
+        </div>
+
+        <div class="footer">
+            <div class="footer-title">UZGASTRADE</div>
+            <p class="footer-subtitle">© 2025. Barcha huquqlar himoyalangan</p>
+        </div> 
     </body>
 </html>

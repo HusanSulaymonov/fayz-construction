@@ -1,9 +1,4 @@
-html, body {
-    width: 100%;
-    height: 100%;
-}
-  
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,119 +6,157 @@ body {
 }
 
 body {
-    background-color: #f6f7fb;
+    background-color: #f8f9fb;
     display: flex;
-    max-height: 100vh;
-    height: 950px;
-    width: 1920px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.login-page-pattern {
-    width: 280px;
-    height: 140px;
-    margin-left: 352px;
+.header-img {
+    position: absolute;
+    top: 0;
+    left: 352px;
 }
 
-.login-header {
+.header-text {
+    text-align: center;
     position: absolute;
     top: 176px;
     left: 398px;
-}
-
-.login-page-h1 {
-    font-size: 32px;
-    font-weight: 600;
-    text-align: center;
-    margin: 0;
-    color: #19191B;
-}
-
-.login-page-h2 {
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0;
-    text-align: center;
-    color: #757D8E;
 }
 
 .login-container {
     position: absolute;
     top: 276px;
     left: 266px;
-    background-color: #fff;
+    background: white;
+    padding: 30px;
     border-radius: 16px;
-    padding: 20px;
-    width: 452px;
+    width: 100%;
+    max-width: 452px;
     height: 397px;
     text-align: center;
 }
 
-/* Matn maydonchalari stilini o‘rnatamiz */
-.login-container input,
-.login-container input  {
-    position: relative;
-    top: 117px;
-    left: 16px;
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #DEE1EB;
+.tabs {
+    width: fit-content;
+    max-width: 420px;
+    max-height: 48px;
+    background-color: #EEF0F4;
     border-radius: 10px;
-    align-items: center;
-}
-
-/* Tugma stilini o‘rnatamiz */
-.login-container button {
-    position: absolute;
-    top: 329px;
-    left: 16px;
-    width: 420px;
-    height: 52px;
-    padding: 10px;
-    background-color: #031F36;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-/* Kirish usullari tugmalari */
-.tab-container {
-    position: absolute;
-    top: 16px;
-    left: 16px;
     display: flex;
-    width: 420px;
-    height: 48px;
-    background-color: #eef0f4;
-    margin-bottom: 16px;
-    border-radius: 10px;
-    padding: 4px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    gap: 2px;
+    border: 5px solid #EEF0F4;
 }
 
-/* Tugmalar stilini o‘rnatamiz */
 .tab {
+    padding: 10px 20px;
     cursor: pointer;
-    padding: 10px;
-    width: 56px;
-    height: 28px;
+    font-weight: 500;
+    color: #737E8E;
+    background-color: #eef0f4;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.tab.active {
+    width: 101px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: white;
+    color: #19191B;
     font-weight: 500;
     font-size: 18px;
-    color: #737E8E;
+    box-shadow: 0px 2px 8px rgba(16, 44, 87, 0.2);
 }
 
-/* Faol tugmaning uslubi */
-.tab.active {
-    
+h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
-.ugt-logo-1 {
-    width: 287px;
-    height: 130px;
-    margin-left: 349px;
-    margin-top: 733px;
-    margin-bottom: 87px;
+p.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DEE1EB;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757D8E;
+}
+
+.btn {
+    width: 420px;
+    width: 100%;
+    height: 52px;
+    padding: 12px;
+    background-color: #031F36;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 90px;
+}
+
+.footer-img {
+    position: absolute;
+    top: 733px;
+    left: 349px;
+}
+
+.footer {
+    text-align: center;
+    position: absolute;
+    top: 860px;
+    left: 350px;
+    width: fit-content; /* yoki auto */
+    max-width: 284px;
+    height: fit-content; /* yoki auto */
+    max-height: 58px;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -2%;
+    color: #031F36;
+}
+
+.footer-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #757D8E;
 }
