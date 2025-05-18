@@ -167,3 +167,33 @@ input::placeholder {
     line-height: 150%;
     color: #757D8E;
 }
+
+.frame {
+    position: absolute;
+    top: 32px;
+    bottom: 32px;
+    right: 32px;
+    left: 968px;
+    width: 920px;
+    border-radius: 16px;
+    background: linear-gradient(#062B49, #02192C);
+    display: flex;
+    flex-direction: column;
+}
+
+.img-1 {
+    position: relative;
+    top: 0;
+    left: 388px;
+    width: 531.5px;
+    height: 300px;
+} 
+
+.img-2 {
+    position: relative;
+    top: 886px;
+    right: 531.5px;
+    width: 531.5px;
+    height: 300px;
+    transform: rotate(180deg);
+} 
