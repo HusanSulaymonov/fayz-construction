@@ -100,9 +100,12 @@ p.subtitle {
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: 600;
+    color: #19191B;
 }
 
 .input-group input {
+    width: 420px;
+    height: 52px;
     width: 100%;
     padding: 10px;
     border: 1px solid #DEE1EB;
