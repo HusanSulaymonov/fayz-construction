@@ -29,7 +29,20 @@ body {
     left: 398px;
 }
 
+h1 {
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
 .login-container {
+    max-width: 452px;
     position: absolute;
     top: 276px;
     left: 266px;
@@ -80,23 +93,14 @@ body {
     box-shadow: 0px 2px 8px rgba(16, 44, 87, 0.2);
 }
 
-h1 {
-    margin-bottom: 8px;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-p.subtitle {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 20px;
-}
-
 .input-group {
     padding-top: 80px;
     text-align: left;
     margin-bottom: 15px;
     position: relative;
+    box-sizing: border-box;
+    position: relative;
+    right: 16px;
 }
 
 .input-group label {
@@ -108,7 +112,7 @@ p.subtitle {
 }
 
 .input-group input {
-    width: 100%;
+    width: 420px;
     height: 52px;
     padding: 10px;
     border: 1px solid #DEE1EB;
@@ -119,12 +123,13 @@ p.subtitle {
 
 .input-group.placeholder {
     color: #757D8E;
+    font-weight: 600;
 } 
 
 /* Toggle uchun pastga qaragan burchak shakli */
 .toggle-icon {
     position: absolute;
-    right: 15px;
+    right: -5px;
     top: 82%;
     transform: translateY(-50%) rotate(45deg);
     width: 8px;
@@ -136,7 +141,6 @@ p.subtitle {
 
 .btn {
     width: 420px;
-    width: 100%;
     height: 52px;
     padding: 12px;
     background-color: #031F36;
@@ -147,6 +151,9 @@ p.subtitle {
     font-size: 18px;
     cursor: pointer;
     margin-top: 115px;
+    box-sizing: border-box;
+    position: relative;
+    right: 16px;
 }
 
 .footer-img {
