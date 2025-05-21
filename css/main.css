@@ -11,7 +11,10 @@
 
 body {
     font-family: 'Giga Sans', serif;
-    
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 a {
@@ -147,4 +150,93 @@ ul {
     color: #fff;
     font-weight: 500;
     font-size: 18px;
+}
+
+.header-bg {
+    position: absolute;
+    top: 89px;
+    left: 243px;
+}
+
+.red-overlay {
+    position: absolute;
+}
+
+.red-vector {
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+
+.title {
+    position: absolute;
+    width: 658px;
+    top: 310px;
+    left: 160px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+
+.subtitle {
+    position: absolute;
+    width: 789px;
+    height: 56px;
+    top: 400px;
+    left: 150px;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.description {
+    position: absolute;
+    width: 772px;
+    height: 44px;
+    top: 500px;
+    left: 160px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+
+.btn-more {
+    position: absolute;
+    top: 618px;
+    left: 160px;
+    width: 251px;
+    height: 49px;
+    background-color: #F14747;
+    border-radius: 12px;
+    color: #fff;
+    border: 1px solid #F25959;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.arrow-icon {
+    width: 12px;
+    height: 10px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.project-card-1 img {
+    position: relative;
+    width: 318px;
+    height: 220px;
+    top: 580px;
+    left: 835px;
+    border: 1px solid #b59280;
+    border-radius: 12px;
 }
