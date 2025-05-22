@@ -1,3 +1,4 @@
+/* Navbar */
 @font-face {
     font-family: 'Giga Sans';
     src: url('../Locomotype\ \ GigaSansMedium.otf');
@@ -153,7 +154,10 @@ ul {
     font-weight: 500;
     font-size: 18px;
 }
+/* Navbar */
 
+
+/* Header section */
 .header-bg {
     position: absolute;
     top: 89px;
@@ -419,13 +423,27 @@ ul {
     line-height: 100%;
     letter-spacing: -2%;
     padding-top: 5px;
-    padding-right: 30px;
+    padding-left: 5px;
 }
 
-.slash-eight {
+.slash {
     width: 24px;
     height: 18px;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.eight {
+    width: 24px;
+    height: 18px;
+    font-weight: 300;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: -2%;
@@ -434,3 +452,4 @@ ul {
     justify-content: center;
     padding-top: 10px;
 }
+/* Header section */
