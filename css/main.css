@@ -170,16 +170,17 @@ ul {
 
 .social-icons {
     position: absolute;
-    top: 352px;
-    left: 59px;
+    top: 435px;
+    left: 50px;
     width: 42px;
-    height: 192px;
+    height: 360px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     z-index: 1000;
+    padding: 10px 0px;
     color: #fff;
 }
 
@@ -190,13 +191,14 @@ ul {
     border: 1px solid #F25959;
     justify-content: center;
     align-items: center;
+    display: flex;
+    padding: 10px 0px;
 }
 
 .social-icons .line {
-    width: 2px;
-    height: 50px;
-    background-color: #fff;
-    opacity: 0.5;
+    border: 1px solid #fff;
+    height: 60px;
+    opacity: 20%;
 }
 
 .social-icons .top-line {
