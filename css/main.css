@@ -197,15 +197,15 @@ ul {
     height: 50px;
     background-color: #fff;
     opacity: 0.5;
-  }
-  
-  .social-sidebar .top-line {
+}
+
+.social-icons .top-line {
     margin-bottom: 5px;
-  }
-  
-  .social-sidebar .bottom-line {
+}
+
+.social-icons .bottom-line {
     margin-top: 5px;
-  }
+}
 
 .title {
     position: absolute;
