@@ -301,20 +301,27 @@ ul {
     border-radius: 12px;
 }
 
+.project-card-3,
 .project-card-3 img {
     position: relative;
     top: -19px;
     left: 1503px;
     border: 1px solid #b59280;
     border-radius: 12px;
+    width: 318px;
+    height: 220px;
 }
 
+.project-card-4,
 .project-card-4 img {
     position: relative;
     top: -315px;
     left: 1837px;
     border: 1px solid #b59280;
     border-radius: 12px;
+    width: 318px;
+    height: 220px;
+    display: block;
 }
 
 .card-blur {
@@ -453,3 +460,9 @@ ul {
     padding-top: 10px;
 }
 /* Header section */
+
+
+/* Section 1 */
+
+
+/* Section 1 */
