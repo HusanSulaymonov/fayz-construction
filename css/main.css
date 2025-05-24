@@ -307,8 +307,7 @@ ul {
 
 .project-card-1 img,
 .project-card-2 img,
-.project-card-3 img,
-.project-card-4 img {
+.project-card-3 img {
     height: 100%;
     border-radius: 12px;
 }
@@ -324,6 +323,12 @@ ul {
     backdrop-filter: blur(8px);
     color: #fff;
     
+}
+
+.project-card-4 img {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
 .card-blur h3 {
