@@ -279,49 +279,33 @@ ul {
 }
 
 .project-cards {
+    position: absolute;
+    top: 687px;
+    right: -235px;
     display: flex;
-    overflow-x: auto;
+    gap: 16px;
+    flex-direction: row;
+    z-index: 10;
 }
 
-.project-card-1 img {
-    position: relative;
-    width: 318px;
-    height: 220px;
-    top: 600px;
-    left: 835px;
-    border: 1px solid #b59280;
-    border-radius: 12px;
-}
-
-.project-card-2 img {
-    position: relative;
-    top: 302px;
-    left: 1169px;
-    border: 1px solid #b59280;
-    border-radius: 12px;
-}
-
+.project-card-1,
+.project-card-2,
 .project-card-3,
-.project-card-3 img {
+.project-card-4 {
     position: relative;
-    top: -19px;
-    left: 1503px;
-    border: 1px solid #b59280;
-    border-radius: 12px;
     width: 318px;
     height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #b59280;
 }
 
-.project-card-4,
+.project-card-1 img,
+.project-card-2 img,
+.project-card-3 img,
 .project-card-4 img {
-    position: relative;
-    top: -315px;
-    left: 1837px;
-    border: 1px solid #b59280;
+    height: 100%;
     border-radius: 12px;
-    width: 318px;
-    height: 220px;
-    display: block;
 }
 
 .card-blur {
@@ -334,46 +318,24 @@ ul {
     border-bottom-right-radius: 12px;
     backdrop-filter: blur(8px);
     color: #fff;
+    
 }
 
 .card-blur h3 {
-    font-style: 22px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: -2%;
     color: #fff;
+    margin-bottom: 4px;
 }
 
 .card-blur p {
     color: #fff;
-    font-style: 16px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 200;
     line-height: 100%;
     letter-spacing: -2%;
-}
-
-.card-blur-1 {
-    position: relative;
-    top: 525px;
-    left: 835px;
-}
-
-.card-blur-2 {
-    position: relative;
-    top: 225px;
-    left: 1170px;
-}
-
-.card-blur-3 {
-    position: relative;
-    top: -95px;
-    left: 1504px;
-}
-
-.card-blur-4 {
-    position: relative;
-    top: -390px;
-    left: 1837px;
 }
 
 .slider-navigation {
@@ -463,6 +425,6 @@ ul {
 
 
 /* Section 1 */
-
+    
 
 /* Section 1 */
