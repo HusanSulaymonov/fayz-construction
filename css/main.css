@@ -74,13 +74,13 @@ ul {
     gap: 20px;
 }
 
-.phone-number {
+.phone-number-1 {
     position: absolute;
     top: 20px;
     left: 1282px;
 }
 
-.phone-number a {
+.phone-number-1 a {
     width: 182px;
     height: 24px;
     font-size: 20px;
@@ -785,14 +785,106 @@ ul {
 
     .partners-container {
         position: relative;
-        top: -360px;
+        top: -365px;
         height: 120px;
     }
 /* Partners */
 
 
 /* Footer */
-    
+    .footer_container {
+        position: absolute;
+        top: 4583px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    hr {
+        border: 1px solid #F0F1F5;
+        width: 1600px;
+        margin-left: 160px;
+        margin-bottom: 40px;
+    }
+
+    .phone-number {
+        position: absolute;
+        top: 80px;
+        left: 160px;
+    }
+
+    .email {
+        position: absolute;
+        top: 80px;
+        left: 564px;
+    }
+
+    .address-1 {
+        position: absolute;
+        top: 80px;
+        left: 968px;
+    }
+
+    .address-2 {
+        position: absolute;
+        top: 80px;
+        left: 1373px;
+    }
+
+    .phone-number p, .email p, .address-1 p, .address-2 p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        color: #475262;
+    } 
+
+    .phone-number h3, .email h3, .address-1 h3, .address-2 h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        color: #1C1C1C;
+    }
+
+    .footer-social-icons {
+        width: 1600px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 3800px;
+        left: 160px;
+        border-radius: 12px;
+        border: 1px solid #F0F1F5;
+        gap: 10px;
+        margin-bottom: 20px;
+        background-color: #F6F7FB;
+    }
+
+    .footer-social-icons p {
+        position: absolute;
+        left: 16px;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 120%;
+        color: #1C1C1C;
+        width: 390px;
+        height: 22px;
+        white-space: nowrap;
+    }
+
+    .footer-social-icons i {
+        background-color: #fff;
+        border: 1px solid #F0F1F5;
+        width: 36px;
+        height: 36px;
+        border-radius: 12px;
+        display: flex;
+        gap: 6px;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 @media (max-width: 1100px) {
