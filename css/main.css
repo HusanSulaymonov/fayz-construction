@@ -730,10 +730,71 @@ ul {
         border-radius: 12px;
         border: 1px solid #F0F1F5;
     }
+/* Reviews */
 
 
+/* Partners */
+    .partners {
+        width: 1920px;
+        height: 254px;
+        position: absolute;
+        top: 4149px;
+    }
 
+    .partners-info {
+        position: absolute;
+        top: 60px;
+        left: 860.5px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 10px;
+        width: 205px;
+        height: 38px;
+        padding-left: 5px;
+    }
+
+    .partners-info p {
+        color: #a8adaf;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        width: 154px;
+        height: 22px;
+        white-space: nowrap;
+        padding-left: 5px;
+        padding-top: 3px;
+    }
+
+    .partners-title {
+        position: absolute;
+        top: 120px;
+        left: 828px;
+        width: 264px;
+        height: 60px;
+    }
+
+    .partners-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 120%;
+    }
+
+    .partners-container {
+        position: relative;
+        top: -360px;
+        height: 120px;
+    }
+/* Partners */
+
+
+/* Footer */
     
+
+
 @media (max-width: 1100px) {
     body {
         overflow-x: auto;
