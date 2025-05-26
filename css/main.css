@@ -281,6 +281,7 @@ ul {
     border: 1px solid #F25959;
     font-weight: 500;
     font-size: 1.125rem;
+    cursor: pointer;
 }
 
 .arrow-icon {
@@ -504,6 +505,7 @@ ul {
         width: 22.75rem;
         height: 3rem;
         margin-top: 1.375rem;
+
     }
 
     .about-us {
@@ -517,6 +519,7 @@ ul {
         font-size: 1.125rem;
         line-height: 140%;
         margin-right: 0.4375rem;
+        cursor: pointer;
     }
 
     .about-us img {
@@ -533,6 +536,7 @@ ul {
         font-weight: 500;
         font-size: 1.125rem;
         line-height: 140%;
+        cursor: pointer;
     }
 
     .contacts img {
@@ -599,6 +603,7 @@ ul {
         height: 12.875rem;
         border-radius: 12px;
         box-shadow: 0 0 30px 0 rgba(28, 28, 28, 0.05);
+        cursor: pointer;
     }
 /* Services */
 
@@ -670,6 +675,10 @@ ul {
         position: absolute;
         top: 158rem;
         left: 1.875rem;
+    }
+
+    .portfolio-container img {
+        cursor: pointer;
     }
 /* Our Projects */
 
@@ -905,6 +914,7 @@ ul {
         background-color: blue;
         color: white;
         border-radius: 12px;
+        cursor: pointer;
     }
 
 
