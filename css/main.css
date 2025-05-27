@@ -1,5 +1,5 @@
 .container {
-    max-width: 120rem;
+    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
     padding: 0px 0px;
@@ -25,6 +25,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -71,9 +72,9 @@ ul {
 
 .nav-menu a {
     line-height: 140%;
-    font-style: 18px;
+    font-size: 18px;
     font-weight: 500;
-    letter-spacing: -2%;
+    letter-spacing: -1px;
     color: #1C1C1C;
 }
 
