@@ -24,6 +24,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
+    margin: 0 auto;
 }
 
 a {
@@ -172,6 +173,7 @@ ul {
 .header-section {
     height: 100vh; /* Headerning aniq balandligi */
     overflow-x: hidden; /* Header ichida ortiqcha skroll bo‘lmasligi uchun */
+    margin: 0 auto;
 }
 
 .header-bg {
