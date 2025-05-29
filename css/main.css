@@ -915,7 +915,7 @@ ul {
         width: 9.375rem;
         height: 1.875rem;
         margin-bottom: 3.125rem;
-        justify-content: center;
+        justify-self: center;
         align-items: center;
         background-color: blue;
         color: white;
