@@ -181,6 +181,8 @@ ul {
     position: absolute;
     top: 5.56rem;
     left: 15.2rem;
+    background-position: center;
+    background-size: cover;
 }
 
 .red-overlay {
